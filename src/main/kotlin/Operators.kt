@@ -15,7 +15,7 @@ fun main() {
 //    incrementDecrement()
 
     //Call logical()
-    logical()
+//    logical()
 }
 
 fun arithmetic() {
@@ -101,17 +101,3 @@ fun incrementDecrement() {
     println("!b = " +  (!b))
 }
 
-fun logical() {
-    val x: Boolean = true
-    val y: Boolean = false
-
-    // true AND false
-    println("x && y = " +  (x && y))
-
-    // true OR false
-    println("x || y = " +  (x || y))
-
-    // NOT false
-    println("!y = " +  (!y))
-
-}
