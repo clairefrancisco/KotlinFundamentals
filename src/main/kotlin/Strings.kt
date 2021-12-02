@@ -1,5 +1,5 @@
 fun main(){
-//    val myMessage = "Happy Birthday! Justin!"
+    val myMessage = "Happy Birthday! Justin!"
 //    val anotherMessage = "Happy Birthday! Macki!"
 //    println(myMessage)
 //    println(myMessage.get(0))
@@ -15,11 +15,12 @@ fun main(){
 //    println(myMessage.toLowerCase())
 //    println(myMessage.reversed())
 //    println(myMessage.random())
-
 //    val givenName = "Claire"
 //    val surName = "Francisco"
 //    val middleName = "Cordero"
 //    val myAge = 21
+
+
 
 //    println("My full name is $givenName ${middleName.get(0)} $surName")
 //    println("My full name is $givenName ${middleName.first()} $surName")
