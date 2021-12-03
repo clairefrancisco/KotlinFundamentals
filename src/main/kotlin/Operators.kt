@@ -12,7 +12,7 @@ fun main() {
 //    assignment()
 //
 //    //unary
-//    unaryOperator()
+    unaryOperator()
 //
 //    //Call logical()
 //    logical()
@@ -21,7 +21,7 @@ fun main() {
 //    println(century(1900))
 
     //code wars twiceAsOld
-    println(twiceAsOld(36,7))
+//    println(twiceAsOld(36,7))
 }
 
 fun arithmetic() {
@@ -72,7 +72,7 @@ fun arithmetic() {
 
 fun comparison() {
     val x = 45
-    val y = 39
+    val y = -39
 
     // greater than
     println("x > y = " +  (x > y))
