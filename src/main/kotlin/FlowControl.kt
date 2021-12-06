@@ -131,12 +131,18 @@ fun doWhileLoop(){
     var exitCode = -1
     var userInput = 0
     var counter = 0
-
+    var totalHumans = 0
     do{
-        print("People Entered: ")
-        userInput = readLine()!!.toInt()
-        if(userInput != -1) counter += userInput
-        println("Total: $counter")
-    }while(userInput != exitCode)
-    println("Thank you for using HumanCounter!")
+        println("How many people entered")
+        var userInput = readLine()!!.toInt()
+        if(userInput != exitCode){
+            totalHumans += userInput
+            println(" $totalHumans ")
+        }else{
+            println("Total Humans Entered: $totalHumans")
+            println("Thank you for using human counter")
+        }
+
+    }while (userInput != exitCode)
+
 }
