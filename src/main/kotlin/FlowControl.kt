@@ -6,6 +6,15 @@ fun main(args: Array<String>){
 //    forLoop()
 //    whileLoop()
 //    doWhileLoop()
+
+    val numbers = listOf(1,2,3,4,5)
+
+    numbers.forEach{
+        if(it %2 ==0){
+            println(it)
+        }
+
+    }
 }
 
 fun ageCheck(){

@@ -3,11 +3,9 @@ fun main(){
     //Take three numbers from the user and print the greatest number.
     //Write a program to check whether an alphabet is a vowel or consonant.
 
-
-
 //    findTheGreatest()
 //    vowelConsonant()
-    checkPassword()
+//    checkPassword()
 }
 
 fun findTheGreatest(){
