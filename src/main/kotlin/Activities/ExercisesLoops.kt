@@ -2,6 +2,7 @@ fun main(args: Array<String>){
 
     practiceLoop1()
     practiceLoop2()
+    practiceLoop3()
 
 }
 
@@ -41,4 +42,8 @@ fun practiceLoop2(){
     grades.forEach{
         println(it.maxOrNull())
     }
+}
+
+fun practiceLoop3(){
+
 }
