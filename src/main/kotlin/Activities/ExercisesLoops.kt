@@ -1,7 +1,7 @@
 fun main(args: Array<String>){
 
-//    practiceLoop1()
-//    practiceLoop2()
+    practiceLoop1()
+    practiceLoop2()
     practiceLoop3()
 
 }
@@ -45,30 +45,5 @@ fun practiceLoop2(){
 }
 
 fun practiceLoop3(){
-//Using filter, given a list from 1-1000, display all perfect numbers.
-    val numbers = (1..1000).toList()
-    println(numbers.filter { num ->
-        (1 until num).filter { num % it == 0 }.sum() == num
-    })
 
-//    println((1..1000).toList().filter{ it ->
-//        var count = 0
-//        for (i in 1..it / 2) {
-//            if (it % i == 0)  count += i
-//        }
-//        count==it
-//    })
-//
-
-//    val perfectNumber = numbers.filter{ it ->
-//        var count = 0
-//        for (i in 1..it / 2) {
-//            if (it % i == 0)  count += i
-//        }
-//        count==it
-//    }
-//    println(perfectNumber)
-
- }
-
-
+}
