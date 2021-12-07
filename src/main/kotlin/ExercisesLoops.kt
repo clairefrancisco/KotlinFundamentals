@@ -1,6 +1,6 @@
 fun main(args: Array<String>){
 
-    practiceLoop1()
+//    practiceLoop1()
     practiceLoop2()
 
 }
